@@ -1,4 +1,3 @@
-
 # 🧠 FaceSecure: AI-Based Facial Recognition & Liveness Detection System
 
 ## 📖 Overview
@@ -48,6 +47,20 @@ FaceSecure/
 ```bash
 pip install -r Requirements.txt.txt
 ```
+
+### 📥 Download ONNX Model File
+
+**Important:** The ONNX model file is required for face recognition but is not included in the repository due to size constraints (166MB).
+
+**Download the model:**
+- **File Name:** `w600k_r50.onnx` 
+- **Size:** ~166MB
+- **Download Link:** (https://drive.google.com/file/d/18NZd21VKdSWMw9VacqvRenmTR3bBTcef/view?usp=sharing)
+
+**Setup Instructions:**
+1. Download the ONNX model from the link above
+2. Place the `.onnx` file in the project root directory (same folder as `app.py`)
+3. Ensure the filename matches the one specified in your code
 
 ### Sample `Requirements.txt.txt`
 ```txt
@@ -176,7 +189,3 @@ To run the app on your mobile browser (same Wi-Fi):
 
 ---
 
-## 📜 License
-
-This project is released under the **MIT License**.  
-You are free to use, modify, and distribute it for educational or research purposes.
